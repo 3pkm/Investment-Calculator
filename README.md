@@ -1,27 +1,60 @@
-# EssentialsPractice
+# Investment Calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+## Overview
 
-## Development server
+The Investment Calculator is a web application built using Angular. It allows users to calculate the future value of their investments based on various parameters such as initial investment, annual investment, expected return, and duration.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- Calculate future investment value
+- Input fields for initial investment, annual investment, expected return, and duration
+- Display results dynamically
+- Responsive design
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+To get a local copy up and running, follow these steps:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
 
-## Running unit tests
+- [Node.js](https://nodejs.org/)
+- [Angular CLI](https://angular.io/cli)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Steps
 
-## Running end-to-end tests
+1. **Clone the repository**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    ```bash
+    git clone https://github.com/your-username/investment-calculator.git
+    cd investment-calculator
+    ```
 
-## Further help
+2. **Install dependencies**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    ```bash
+    npm install
+    ```
+
+3. **Run the application**
+
+    ```bash
+    ng serve
+    ```
+
+Open [http://localhost:4200](http://localhost:4200) to view it in the browser.
+
+## Usage
+
+1. Enter the initial investment amount.
+2. Enter the annual investment amount.
+3. Enter the expected return rate (in percentage).
+4. Enter the duration of the investment (in years).
+5. Click the "Calculate" button to see the future value of your investment.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
+
+## Contact
+
+Prakhar Jaiswal - [jas.prakhar@gmail.com](mailto:jas.prakhar@gmail.com)
